@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jhaji Steel Udyog</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- side bar -->
+    <div class="side-bar" id="mySidebar">
+      <!-- logo-->
+      <button class="menu-toggle" onclick="w3_close()">
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <img class="logo" src="image/shop  logo.png" alt="company-logo" />
+
+      <div class="side-bar-menus">
+        <a href="#home" onclick="w3_close()"
+          ><ion-icon name="storefront-outline"></ion-icon>Home</a
+        >
+        <a href="#order-now" onclick="w3_close()"
+          ><ion-icon name="megaphone-outline"></ion-icon>Order now</a
+        >
+        <a href="#social" onclick="w3_close()"
+          ><ion-icon name="call-outline"></ion-icon>contact Us</a
+        >
+        <a href="#"
+          ><ion-icon name="hand-left-outline"></ion-icon>Provide Feedback</a
+        >
+      </div>
+      <div class="side-bar-insta">
+        <a href="https://twitter.com/SauravJ47565627" target="_blank"
+          ><ion-icon name="logo-instagram"></ion-icon>follow us</a
+        >
+      </div>
+    </div>
+
+    <div class="main">
+      <button class="menu-toggle" onclick="w3_open()">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+      <div class="main-navbar">
+        <img class="logo" src="image/shop  logo.png" alt="company-logo" />
+
+        <div class="search">
+          <input type="text" placeholder="chairs,fridge,almirah" />
+          <button class="search-btn">search</button>
+        </div>
+      </div>
+
+      <div class="hero" id="home">
+        <div class="hero-text">
+          <div id="text">
+            <h1>Welcome to <span class="company-name">JHAJI STEEL</span></h1>
+            <h3>
+              हं, बहुत उचित दाम पर सब सं नीक अल्मिरा, फ्रिज, आ स्टील के उत्पाद
+              भेटत. 15 वर्ष के विश्वास
+            </h3>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://media2.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif?cid=ecf05e47bv9mej61yen73wpmgg30a63kvz24iurl5a2fwixl&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+        class="welcome-logo"
+        alt=""
+      />
+      <!-- main highlight -->
+      <div class="main-highlight">
+        <!-- main header starts -->
+        <div class="main-header">
+          <h2 class="main-title">Latest Designs</h2>
+          <div class="main-arrow">
+            <ion-icon
+              name="chevron-back-circle-outline"
+              class="back"
+            ></ion-icon>
+            <ion-icon
+              name="chevron-forward-circle-outline"
+              class="next"
+            ></ion-icon>
+          </div>
+        </div>
+        <!-- main header end -->
+
+        <div class="highlight-wrapper" id="order-now">
+          <div class="highlight-card">
+            <img src="image/download (1).jpeg" class="highlight-img" alt="" />
+            <div class="highlight-desc">
+              <h4>Double door Fridge(samsung)</h4>
+              <p>Rs 15000</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <img src="image/download.jpeg" class="highlight-img" alt="" />
+            <div class="highlight-desc">
+              <h4>Double door Fridge(LG)</h4>
+              <p>Rs 15000</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <img
+              src="image/attractive-design-silver-colour-stainless-steel-bed-with-high-rust-resistivity-630.webp"
+              class="highlight-img"
+              alt=""
+            />
+            <div class="highlight-desc">
+              <h4>Steel bed</h4>
+              <p>Rs 15000</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <img src="image/2020-12-01 (1).jpg" class="highlight-img" alt="" />
+            <div class="highlight-desc">
+              <h4>almirah</h4>
+              <p>Rs 15000</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <img
+              src="image/Screenshot-2022-07-11-170816.png"
+              class="highlight-img"
+              alt=""
+            />
+            <div class="highlight-desc">
+              <h4>Dulhan design almirah</h4>
+              <p>Rs 15000</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <img
+              src="image/167280-800-auto.webp"
+              class="highlight-img"
+              alt=""
+            />
+            <div class="highlight-desc">
+              <h4>Double door Fridge</h4>
+              <p>Rs 15000</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- highlight wrapper -->
+      </div>
+      <!-- main highlights end here -->
+
+      <!-- highlight container -->
+      <div class="highlight-container">
+        <!-- title for the cards -->
+        <div class="highlight-title">
+          <!-- almirah title -->
+          <h2 class="Almirah-title">Our Products collection...</h2>
+        </div>
+        <!-- section holding the almirah cards -->
+
+        <div class="cards">
+          <div class="almirah-cards">
+            <img
+              src="image/stainless-steel-cloth-drying-stand.jpg"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h1>Cloth Drying Stand</h1>
+            <p class="price">Rs.1900</p>
+            <p>
+              Rack Type: Free Standing Rack Color: Multi color Body Material:
+              Mild Steel Shape: Rectangular Is It Foldable: Foldable Is It
+              Portable: Portable
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4_orQJLkxlmplnru9UfV4ey2XwtHaAthuuqNEmkP8mM8HNg/viewform?usp=sf_link', '_blank')"
+              >
+                Add to Cart
+              </button>
+            </p>
+          </div>
+          <div class="almirah-cards">
+            <img
+              src="image/images.jpeg"
+              alt="Denim Jeans"
+              style="width: 100%"
+            />
+            <h1>Supreme Diva Chair</h1>
+            <p class="price">Rs.1300</p>
+            <p>
+              Brand:Supreme, Colour:Red & Black, Product Dimensions:51D x 45W x
+              84.5H Centimeters, Size:51 X 45 X 84.5 cm
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4_orQJLkxlmplnru9UfV4ey2XwtHaAthuuqNEmkP8mM8HNg/viewform?usp=sf_link', '_blank')"
+              >
+                Add to Cart
+              </button>
+            </p>
+          </div>
+          <div class="almirah-cards">
+            <img src="image/32.jpg" alt="Denim Jeans" style="width: 100%" />
+            <h1>Bullet Locker Steel Almirah</h1>
+            <p class="price">Rs.19000</p>
+            <p>
+              It has charming door and a locker with anchor Sporting a sleek and
+              sturdy body, this modern steel almirah available in multicolour
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4_orQJLkxlmplnru9UfV4ey2XwtHaAthuuqNEmkP8mM8HNg/viewform?usp=sf_link', '_blank')"
+              >
+                Add to Cart
+              </button>
+            </p>
+          </div>
+          <div class="almirah-cards">
+            <img src="image/35.jpg" alt="Denim Jeans" style="width: 100%" />
+            <h1>Steel Almirah</h1>
+            <p class="price">Rs.19800</p>
+            <p>
+              This Steel Almirah gives some extra security for your valuables
+              and clothes is always welcome. Along with this, steel almirah is
+              provided with several shelves.
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4_orQJLkxlmplnru9UfV4ey2XwtHaAthuuqNEmkP8mM8HNg/viewform?usp=sf_link', '_blank')"
+              >
+                Add to Cart
+              </button>
+            </p>
+          </div>
+          <div class="almirah-cards">
+            <img src="image/37.jpg" alt="Denim Jeans" style="width: 100%" />
+            <h1>Steel Almirah 36″ violet</h1>
+            <p class="price">Rs.13500</p>
+            <p>
+              It has charming door and a locker with dual anchor sporting sleek
+              and sturdy body, this modern steel almirah available in
+              multicolour
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4_orQJLkxlmplnru9UfV4ey2XwtHaAthuuqNEmkP8mM8HNg/viewform?usp=sf_link', '_blank')"
+              >
+                Add to Cart
+              </button>
+            </p>
+          </div>
+          <div class="almirah-cards">
+            <img src="image/44-1.jpg" alt="Denim Jeans" style="width: 100%" />
+            <h1>Queen Steel Almirah</h1>
+            <p class="price">Rs.19800</p>
+            <p>
+              Along with this, steel almirah is provided with several shelves on
+              which a variety of stuff can be kept in it.
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4_orQJLkxlmplnru9UfV4ey2XwtHaAthuuqNEmkP8mM8HNg/viewform?usp=sf_link', '_blank')"
+              >
+                Add to Cart
+              </button>
+            </p>
+          </div>
+          <div class="almirah-cards">
+            <img src="image/38.jpg" alt="Denim Jeans" style="width: 100%" />
+            <h1>Alna</h1>
+            <p class="price">Rs.5000</p>
+            <p>
+              Complete your bedroom ensemble with our matching Alna bedroom
+              furniture pieces, including nightstands, dressers, and wardrobes.
+              Each piece is expertly crafted to offer ample storage space
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4_orQJLkxlmplnru9UfV4ey2XwtHaAthuuqNEmkP8mM8HNg/viewform?usp=sf_link', '_blank')"
+              >
+                Add to Cart
+              </button>
+            </p>
+          </div>
+          <div class="almirah-cards">
+            <img src="image/40.jpg" alt="Denim Jeans" style="width: 100%" />
+            <h1>Three Door Steel Almirah</h1>
+            <p class="price">Rs.23000</p>
+            <p>
+              It uses intelligent design to provide more storage in the compact
+              space. Plus its sturdy construction and vibrant coloured body
+              ensures aesthetic look to the Almirah.
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4_orQJLkxlmplnru9UfV4ey2XwtHaAthuuqNEmkP8mM8HNg/viewform?usp=sf_link', '_blank')"
+              >
+                Add to Cart
+              </button>
+            </p>
+          </div>
+          <div class="almirah-cards">
+            <img src="image/31.jpg" alt="Denim Jeans" style="width: 100%" />
+            <h1>Bullet Locker Steel Almirah</h1>
+            <p class="price">Rs.19000</p>
+            <p>
+              It has charming door and a locker with anchor Sporting a sleek and
+              sturdy body, this modern steel almirah available in multicolour
+            </p>
+            <p>
+              <button
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4_orQJLkxlmplnru9UfV4ey2XwtHaAthuuqNEmkP8mM8HNg/viewform?usp=sf_link', '_blank')"
+              >
+                Add to Cart
+              </button>
+            </p>
+          </div>
+        </div>
+        <!-- card holder ends here -->
+      </div>
+      <!-- highlight container ends here -->
+    </div>
+    <!-- main ends here -->
+
+    <!-- footer starts here  -->
+    <div class="footer">
+      <h1 class="foot-name">
+        <span class="company-name-foot">JHAJI STEEL</span>
+      </h1>
+      <div class="foot-menu">
+        <img
+          class="address-logo"
+          src="https://media.giphy.com/media/b1jT7PYHb6haRPjafP/giphy.gif"
+          alt="Address"
+        />
+        <div class="address">
+          <ul>
+            <h3>Address</h3>
+            <li>Harine, Madhubani</li>
+            <li>Bihar(847240)</li>
+            <li>India</li>
+          </ul>
+        </div>
+        <div class="career">
+          <ul>
+            <h3>Explore Career</h3>
+            <li>- Want to be part of us.</li>
+            <li>- Current Job Openings</li>
+            <li>- join us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="social" id="social">
+        <h3>We are Social... Connect with us :D !!</h3>
+        <ul>
+          <!-- https://media4.giphy.com/media/SRmMYLzAL7Ph5gZuFv/giphy.gif?cid=ecf05e47m2fu144fcpu6lt4nxxs8mmsmzbjurpkht0nsagqg&ep=v1_gifs_related&rid=giphy.gif&ct=g -->
+          <a href="https://www.youtube.com/" target="_blank"
+            ><li class="youtube">
+              <img src="https://clipart-library.com/images/dc4LABqni.png" /></li
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><li class="insta">
+              <img
+                src="https://static-00.iconduck.com/assets.00/instagram-icon-256x256-tc8iic57.png"
+              /></li
+          ></a>
+          <a href="https://twitter.com/SauravJ47565627" target="_blank"
+            ><li class="x">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png"
+              /></li
+          ></a>
+        </ul>
+      </div>
+      <div class="copyright">
+        ©️ 2024 - Created by SAURAV KUMAR JHA| All Rights Reserved
+      </div>
+    </div>
+    <!-- footer ends here -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
